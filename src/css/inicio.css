@@ -9,7 +9,7 @@
   left: 450px;
   z-index: -0;
 }
-.psi__arbol{
+.psi__arbol {
   position: absolute;
   width: 40%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
   height: auto; /* Permite que la altura se ajuste automáticamente */
@@ -70,7 +70,7 @@
     width: 150px; /* Ajusta el ancho para pantallas de tablet */
     height: 150px; /* Ajusta la altura para pantallas de tablet */
   }
-  .psi__arbol{
+  .psi__arbol {
     position: absolute;
     width: 40%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
     height: auto; /* Permite que la altura se ajuste automáticamente */
@@ -82,10 +82,12 @@
 /* Media query para celulares */
 @media (max-width: 480px) {
   .inicio__text {
-    width: 50%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
+    width: 55%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
     height: auto; /* Permite que la altura se ajuste automáticamente */
     margin: 250px 80px; /* Centra horizontalmente el texto */
     left: 100px; /* Cambia la posición izquierda para centrar horizontalmente */
+    padding: 10px;
+    font: bold cursive;
   }
   .psi__woman {
     width: 40%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
@@ -93,7 +95,7 @@
     margin: 300px 10px; /* Centra horizontalmente el texto */
     left: 10px; /* Oculta el elemento para pantallas de celular si es necesario */
   }
-  .psi__arbol{
+  .psi__arbol {
     position: absolute;
     width: 40%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
     height: auto; /* Permite que la altura se ajuste automáticamente */
