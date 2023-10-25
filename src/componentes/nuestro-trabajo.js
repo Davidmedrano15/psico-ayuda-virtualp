@@ -1,5 +1,10 @@
 import React from "react";
 import "../css/nuestro-trabajo.css";
+import { FcOk } from "react-icons/fc";
+import { FcSmartphoneTablet } from "react-icons/fc";
+import { FcClock } from "react-icons/fc";
+import { FcConferenceCall } from "react-icons/fc";
+
 
 function Servicios() {
   return (
@@ -13,6 +18,10 @@ function Servicios() {
         <br /> con Psicología
         <br /> Ayuda Virtual?
       </h2>
+      <FcOk className="servi__icon"/>
+      <FcSmartphoneTablet className="servi__icon1"/>
+      <FcClock className="servi__icon2" />
+      <FcConferenceCall className="servi__icon3" />
       <div id="animacionSeccion">
         <ul className="servi__conteiner">
           <li>

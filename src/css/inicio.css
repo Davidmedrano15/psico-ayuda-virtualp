@@ -3,10 +3,10 @@
 }
 .psi__woman {
   position: absolute;
-  top: -150px;
+  top: -160px;
   width: 300px;
   height: 300px;
-  left: 350px;
+  left: 450px;
   z-index: -0;
 }
 .psi__arbol{
@@ -18,10 +18,10 @@
 }
 .inicio__text {
   position: absolute;
-  top: 10px;
+  top: -100px;
   width: 450px;
   height: 200px;
-  margin-left: 650px;
+  margin-left: 750px;
   color: #1b1b1b;
   transition: color 10s;
   border: 2px solid transparent;
@@ -84,20 +84,20 @@
   .inicio__text {
     width: 50%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
     height: auto; /* Permite que la altura se ajuste automáticamente */
-    margin: 0 80px; /* Centra horizontalmente el texto */
+    margin: 250px 80px; /* Centra horizontalmente el texto */
     left: 100px; /* Cambia la posición izquierda para centrar horizontalmente */
   }
   .psi__woman {
     width: 40%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
     height: auto; /* Permite que la altura se ajuste automáticamente */
-    margin: 160px 10px; /* Centra horizontalmente el texto */
+    margin: 300px 10px; /* Centra horizontalmente el texto */
     left: 10px; /* Oculta el elemento para pantallas de celular si es necesario */
   }
   .psi__arbol{
     position: absolute;
     width: 40%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
     height: auto; /* Permite que la altura se ajuste automáticamente */
-    margin: 220px 200px; /* Centra horizontalmente el texto */
+    margin: 380px 200px; /* Centra horizontalmente el texto */
     left: 10px; /* Oculta el elemento para pantallas de celular si es necesario */
   }
 }
