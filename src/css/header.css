@@ -1,0 +1,44 @@
+.header__app {
+  position: relative;
+  background-image: url("../images/images.jpeg");
+  background-size: 100% 100%;
+  height: 300px;
+  top: auto;
+  padding: 100px;
+}
+
+.psi__logo {
+  position: absolute;
+  top: 90px;
+  height: 150px;
+  left: 710px;
+}
+
+/* Media query para pantallas pequeñas */
+/* Media query para tablets y celulares */
+@media (max-width: 768px) {
+  .header__app {
+    height: 200px; /* Ajusta la altura para pantallas más pequeñas */
+  }
+
+  .psi__logo {
+    top: 50px; /* Ajusta la posición superior para pantallas más pequeñas */
+    height: 120px; /* Ajusta la altura para pantallas más pequeñas */
+    left: 60%; /* Centra horizontalmente el logo */
+    transform: translateX(-50%); /* Centra horizontalmente el logo */
+  }
+}
+
+/* Media query para celulares */
+@media (max-width: 480px) {
+  .header__app {
+    height: 150px; /* Ajusta la altura para pantallas de celulares */
+  }
+
+  .psi__logo {
+    top: 75px; /* Ajusta la posición superior para pantallas de celulares */
+    height: 55px; /* Ajusta la altura para pantallas de celulares */
+    left: 62%; /* Centra horizontalmente el logo */
+    transform: translateX(-50%); /* Centra horizontalmente el logo */
+  }
+}

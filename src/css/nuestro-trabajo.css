@@ -1,0 +1,102 @@
+.servi {
+  position: relative;
+
+  margin-bottom: 10px;
+}
+.servi__title {
+  position: absolute;
+  top: 350px;
+  left: 250px;
+  transition: color 2s;
+  text-shadow: 2px 2px 4px #eaffc2;
+  font: bold 150% cursive;
+  animation: grow-and-shrink 10s;
+  animation-iteration-count: infinite;
+  color: #127127;
+}
+
+.servi__conteiner {
+  position: absolute;
+  top: 280px;
+  left: 700px;
+  right: 100px;
+  list-style-type: none;
+}
+.servi__t {
+  transition: color 2s;
+  text-shadow: 2px 2px 4px #eaffc2;
+  font: bold 150% cursive;
+  text-align: left;
+  animation: animTexto 5s;
+  color: #127127;
+}
+.servi-p {
+  transition: color 2s;
+  text-shadow: 2px 2px 4px #eaffc2;
+  font: 100% cursive;
+  text-align: left;
+  animation: animTexto 5s;
+  color: #1b1b1b;
+}
+
+@keyframes animTexto {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes grow-and-shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* Media query para tablets */
+@media (max-width: 768px) {
+  .servi__title {
+    font-size: 150%; /* Ajusta el tamaño de fuente para pantallas de tablet */
+    top: 200px; /* Ajusta la posición vertical para pantallas de tablet */
+    left: 30px; /* Ajusta la posición horizontal para pantallas de tablet */
+  }
+  
+  .servi__conteiner {
+    top: 300px; /* Ajusta la posición vertical para pantallas de tablet */
+    left: 30px; /* Ajusta la posición horizontal para pantallas de tablet */
+    right: 30px; /* Ajusta la posición horizontal para pantallas de tablet */
+  }
+  
+  .servi__t {
+    font-size: 120%; /* Ajusta el tamaño de fuente para pantallas de tablet */
+  }
+}
+
+/* Media query para celulares */
+@media (max-width: 480px) {
+  .servi__title {
+    font-size: 120%; /* Ajusta el tamaño de fuente para pantallas de celular */
+    top: 250px; /* Ajusta la posición vertical para pantallas de celular */
+    left: 90px; /* Ajusta la posición horizontal para pantallas de celular */
+  }
+  
+  .servi__conteiner {
+    top: 460px; /* Ajusta la posición vertical para pantallas de celular */
+    left: 130px; /* Ajusta la posición horizontal para pantallas de celular */
+    right: 20px; /* Ajusta la posición horizontal para pantallas de celular */
+  }
+  
+  .servi__t {
+    font-size: 100%; /* Ajusta el tamaño de fuente para pantallas de celular */
+  }
+}

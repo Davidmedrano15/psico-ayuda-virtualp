@@ -1,0 +1,84 @@
+/* UserServiceContent.css */
+.user {
+  padding-right: 100px;
+}
+.user-content {
+  padding: 10px;
+  width: 400px;
+  margin-left: 650px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.user-name {
+  text-decoration: none;
+  color: #127127;
+  transition: all 0.2s;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  font: bold 100% cursive;
+}
+.a-user {
+  
+  font: bold 100% cursive;
+  width: 300px;
+  color: #1b1b1b;
+  transition: color 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  box-shadow: -8px 10px 5px 0px rgba(199, 199, 199, 1); /* Sombra */
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 650px;
+  background-color: rgba(
+    173,
+    216,
+    230,
+    0.5
+  ); /* Azul pastel con 50% de transparencia */
+  text-shadow: 2px 2px 4px #eaffc2;
+  transition: all 0.2s;
+}
+
+.a-user:hover {
+  
+  font: bold 100% cursive;
+  width: 300px;
+  color: #127127;
+  border-color: #127127;
+  border-radius: 25px;
+  user-select: text;
+  cursor: pointer;
+  user-select: text;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Media query para tablets */
+@media (max-width: 768px) {
+  .user-content {
+    width: 90%; /* Ajusta el ancho para adaptarse a la pantalla de tablet */
+    margin: 20px auto; /* Centra horizontalmente y espaciamiento vertical en pantallas de tablet */
+  }
+  .a-user {
+    width: 90%; /* Ajusta el ancho para adaptarse a la pantalla de tablet */
+    margin: 20px auto; /* Centra horizontalmente y espaciamiento vertical en pantallas de tablet */
+  }
+}
+
+/* Media query para celulares */
+@media (max-width: 480px) {
+  .user-content {
+    width: 90%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
+    margin: 20px 80px; /* Centra horizontalmente y espaciamiento vertical en pantallas de celular */
+
+  }
+  .a-user {
+    width: 50%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
+    margin: 20px 130px; /* Centra horizontalmente y espaciamiento vertical en pantallas de celular */
+  }
+}

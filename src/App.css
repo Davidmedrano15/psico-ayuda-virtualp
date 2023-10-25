@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  background-image: url("./images/fondo.jpg");
+  background-size: cover;
+  height: 100rem;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem; /* Ajusta el tamaño de fuente para pantallas grandes */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+.app {
+  /* Limita el ancho del contenido para que se vea bien en pantallas grandes */
+}
+
+.contenedor-principal {
+  width: 84rem;
+  margin: 0 auto;
+}
+/* Consulta de medios para pantallas de 768px o menos (tablets y celulares) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* Tamaño de fuente más pequeño para pantallas más pequeñas */
+  }
+
+  .contenedor-principal {
+    width: 27rem;
+  }
+}
