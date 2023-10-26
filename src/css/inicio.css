@@ -39,7 +39,7 @@
     230,
     0.5
   ); /* Azul pastel con 50% de transparencia */
-  font-weight: bold;
+  
   text-shadow: 2px 2px 4px #eaffc2;
   font: bold 100% cursive;
 }

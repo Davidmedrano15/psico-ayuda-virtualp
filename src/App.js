@@ -4,6 +4,7 @@ import Menu from "./componentes/menu";
 import Inicio from "./componentes/inicio";
 import UserServiceContent from "./componentes/UserServiceContent";
 import Servicios from "./componentes/nuestro-trabajo";
+import Citas from "./componentes/citas"
 import React, { useState } from "react";
 import "normalize.css";
 
@@ -50,6 +51,7 @@ function App() {
       <Inicio />
 
       <Servicios />
+      <Citas />
     </div>
   );
 }
