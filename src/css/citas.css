@@ -19,7 +19,7 @@
   position: absolute;
   left: 350px;
   width: 400%;
-  font: bold 200% cursive;
+  font: bold 200% lalo, sans-serif;
   text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9); /* Sombra con opacidad */
   color: #127127;
   z-index: 1;
@@ -122,17 +122,19 @@
 }
 .citas-title {
   transition: color 2s;
-  font: bold 250% cursive;
+  font: bold 250% lalo, sans-serif;
   color: white;
   text-align: center;
   text-shadow: 0 2px 4px rgba(0, 100, 0, 0.9); /* Sombra con opacidad */
+  margin-top: 40px;
 }
 .citas-text {
   text-align: center;
   transition: color 2s;
-  font: bold 150% cursive;
+  font: bold 150% lalo, sans-serif;
   color: #1b1b1b;
   text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9); /* Sombra con opacidad */
+  margin-top: 40px;
 }
 
 .citas-color {
@@ -141,7 +143,7 @@
   height: 22rem;
   background-color: rgba(130, 130, 130, 0.5);
   width: 650px;
-  margin-top: -350px;
+  margin-top: -370px;
   border-radius: 25px;
 }
 @media (max-width: 768px) {
@@ -161,7 +163,7 @@
     position: absolute;
     left: 120px;
     width: 400%;
-    font: bold 200% cursive;
+    font: bold 200% lalo, sans-serif;
     text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9); /* Sombra con opacidad */
     color: #127127;
   }
@@ -184,12 +186,12 @@
   }
   .citas-title {
     transition: color 2s;
-    font: bold 150% cursive;
+    font: bold 150% lalo, sans-serif;
   }
   .citas-text {
     margin-top: 15px;
     transition: color 2s;
-    font: bold 100% cursive;
+    font: bold 100% lalo, sans-serif;
   }
   .btn {
     margin-top: 10px;
@@ -214,7 +216,7 @@
     position: absolute;
     left: 120px;
     width: 400%;
-    font: bold 200% cursive;
+    font: bold 200% lalo, sans-serif;
     text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9); /* Sombra con opacidad */
     color: #127127;
   }
@@ -236,12 +238,12 @@
   }
   .citas-title {
     transition: color 2s;
-    font: bold 150% cursive;
+    font: bold 150% lalo, sans-serif;
   }
   .citas-text {
     margin-top: 15px;
     transition: color 2s;
-    font: bold 100% cursive;
+    font: bold 100% lalo, sans-serif;
   }
   .btn {
     margin-top: 10px;

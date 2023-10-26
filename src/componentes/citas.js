@@ -23,6 +23,27 @@ const Citas = () => {
       email: '',
       telefono: '',
     });
+    const data = {
+      fecha: nuevaCita.fecha,
+      hora: nuevaCita.hora,
+      paciente: nuevaCita.paciente,
+      email: nuevaCita.email,
+      telefono: nuevaCita.telefono,
+    };
+    // Realiza una solicitud al servidor para enviar el correo
+    fetch('/enviar-correo', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    }).then(response => {
+      if (response.status === 200) {
+        console.log('Correo enviado con éxito');
+      } else {
+        console.error('Error al enviar el correo');
+      }
+    });
   };
 
   const enviarRecordatorio = cita => {

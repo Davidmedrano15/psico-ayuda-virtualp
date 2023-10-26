@@ -28,7 +28,7 @@
   border-radius: 25px;
   transition: all 0.2s;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  font: bold 100% cursive;
+  font: bold 100% lalo, sans-serif ;
 }
 
 .a-menu:hover {
@@ -75,7 +75,7 @@
   top: 20px;
   font-weight: bold;
   text-shadow: 2px 2px 4px #eaffc2;
-  font: bold 200% cursive;
+  font: bold 200% lalo, sans-serif;
 }
 .modal__imagen {
   position: absolute;
@@ -97,11 +97,10 @@
   border-radius: 25px; /* Bordes redondeados */
   box-shadow: 13 13 10px rgba(0, 0, 0, 0.2); /* Sombra */
   text-align: center; /* Centrar texto horizontalmente */
-  line-height: 1.5;
-  font-weight: bold;
+  line-height: 1;
   text-shadow: 2px 2px 4px #eaffc2;
   font-size: 16px;
-  font: bold 100% cursive;
+  font: bold 100% lalo, sans-serif;
 }
 
 /* Estilos para el botón de cerrar */
@@ -212,7 +211,7 @@
     border-radius: 25px;
     transition: all 0.2s;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-    font: bold 120% cursive;
+    font: bold 120% lalo, sans-serif;
     margin: 20px;
   }
   .a-menu:hover {

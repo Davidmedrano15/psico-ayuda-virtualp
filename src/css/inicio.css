@@ -3,10 +3,10 @@
 }
 .psi__woman {
   position: absolute;
-  top: -160px;
+  top: -150px;
   width: 300px;
   height: 300px;
-  left: 450px;
+  left: 650px;
   z-index: -0;
 }
 .psi__arbol {
@@ -18,30 +18,13 @@
 }
 .inicio__text {
   position: absolute;
-  top: -100px;
-  width: 450px;
-  height: 200px;
-  margin-left: 750px;
+  left: 250px;
+  text-align: center;
+  transition: color 2s;
+  font: 150% lalo, sans-serif;
   color: #1b1b1b;
-  transition: color 10s;
-  border: 2px solid transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 25px; /* Bordes redondeados */
-  box-shadow: -8px 10px 5px 0px rgba(199, 199, 199, 1); /* Sombra */
-  text-align: center; /* Centrar texto horizontalmente */
-  animation: fade-in 1s; /* Aplicar la animación de desvanecimiento durante 1 segundo */
-  line-height: 1.5;
-  background-color: rgba(
-    173,
-    216,
-    230,
-    0.5
-  ); /* Azul pastel con 50% de transparencia */
-  
-  text-shadow: 2px 2px 4px #eaffc2;
-  font: bold 100% cursive;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9); /* Sombra con opacidad */
+  top: 150px;
 }
 @keyframes fade-in {
   0% {
@@ -84,10 +67,10 @@
   .inicio__text {
     width: 55%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
     height: auto; /* Permite que la altura se ajuste automáticamente */
-    margin: 250px 80px; /* Centra horizontalmente el texto */
+    margin: 10px 80px; /* Centra horizontalmente el texto */
     left: 100px; /* Cambia la posición izquierda para centrar horizontalmente */
     padding: 10px;
-    font: bold cursive;
+    font: bold  100%  lalo, sans-serif;
   }
   .psi__woman {
     width: 40%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
