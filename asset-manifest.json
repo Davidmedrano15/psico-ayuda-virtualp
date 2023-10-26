@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/psico-ayuda-virtualp/static/css/main.8b5ddddb.css",
-    "main.js": "/psico-ayuda-virtualp/static/js/main.1f04838e.js",
+    "main.css": "/psico-ayuda-virtualp/static/css/main.7e3440fa.css",
+    "main.js": "/psico-ayuda-virtualp/static/js/main.64f62c9b.js",
     "static/js/787.fc625c15.chunk.js": "/psico-ayuda-virtualp/static/js/787.fc625c15.chunk.js",
     "static/media/arbol.png": "/psico-ayuda-virtualp/static/media/arbol.28690c2a7c367905275e.png",
     "static/media/fondo.jpg": "/psico-ayuda-virtualp/static/media/fondo.ca934129dd01bced782a.jpg",
     "static/media/1.png": "/psico-ayuda-virtualp/static/media/1.c5b5b952dc36a97c0f1d.png",
     "static/media/andrea.jpg": "/psico-ayuda-virtualp/static/media/andrea.3df70d4c4d5706034849.jpg",
+    "static/media/header_psicologia1.jpg": "/psico-ayuda-virtualp/static/media/header_psicologia1.0cc6d2edea25b9a6fefb.jpg",
     "static/media/logo1.png": "/psico-ayuda-virtualp/static/media/logo1.a2acd375e97fc3654455.png",
     "static/media/images.jpeg": "/psico-ayuda-virtualp/static/media/images.85191386eedeea34913f.jpeg",
     "index.html": "/psico-ayuda-virtualp/index.html",
-    "main.8b5ddddb.css.map": "/psico-ayuda-virtualp/static/css/main.8b5ddddb.css.map",
-    "main.1f04838e.js.map": "/psico-ayuda-virtualp/static/js/main.1f04838e.js.map",
+    "main.7e3440fa.css.map": "/psico-ayuda-virtualp/static/css/main.7e3440fa.css.map",
+    "main.64f62c9b.js.map": "/psico-ayuda-virtualp/static/js/main.64f62c9b.js.map",
     "787.fc625c15.chunk.js.map": "/psico-ayuda-virtualp/static/js/787.fc625c15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b5ddddb.css",
-    "static/js/main.1f04838e.js"
+    "static/css/main.7e3440fa.css",
+    "static/js/main.64f62c9b.js"
   ]
 }
