@@ -3,6 +3,7 @@ import '../css/citas.css'; // Importa tu archivo CSS
 import psi from '../images/header_psicologia1.jpg';
 
 const Citas = () => {
+ 
   const [citas, setCitas] = useState([]);
   const [nuevaCita, setNuevaCita] = useState({
     fecha: '',
