@@ -28,9 +28,12 @@ function Menu() {
   };
   const scrollToServicios = () => {
     const serviciosSection = document.getElementById("Servicios");
-
+    const citasSection = document.getElementById("Citas"); // Agrega esta línea
+  
     if (serviciosSection) {
       serviciosSection.scrollIntoView({ behavior: "smooth" });
+    } else if (citasSection) { // Agrega este bloque condicional
+      citasSection.scrollIntoView({ behavior: "smooth" });
     }
     closeMobileMenu(); // Cierra el menú al hacer clic en un elemento
   };
@@ -95,8 +98,8 @@ function Menu() {
             </a>
           </li>
           <li className={`nav__li ${isMobileMenuOpen ? "hidden-mobile" : ""}`}>
-            <a className="a-menu" href="/contacto" onClick={closeMobileMenu}>
-              Contacto
+            <a className="a-menu" href="#Citas" onClick={scrollToServicios}>
+              Programar Cita
             </a>
           </li>
         </ul>

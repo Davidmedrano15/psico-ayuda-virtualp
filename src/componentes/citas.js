@@ -3,7 +3,6 @@ import '../css/citas.css'; // Importa tu archivo CSS
 import psi from '../images/header_psicologia1.jpg';
 
 const Citas = () => {
- 
   const [citas, setCitas] = useState([]);
   const [nuevaCita, setNuevaCita] = useState({
     fecha: '',
@@ -56,13 +55,13 @@ const Citas = () => {
   };
 
   return (
-    <div className="from-container ">
+    <div className="from-container " id="Citas">
       <h1 className="from-title">Programación de Citas Médicas</h1>
       <div className="from-ocupa">
         <img src={psi} className="from-image" alt="Logo De psicologia" />
       </div>
       <div>
-        <div className="form-fondo ">
+        <div className="form-fondo">
           <div className="form-group">
             <label className="form-label">Fecha:</label>
             <input
