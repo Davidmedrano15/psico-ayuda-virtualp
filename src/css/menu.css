@@ -63,12 +63,15 @@
   padding: 20px;
   box-shadow: 0 35px 35px rgba(0, 0, 0, 0.2);
   border-radius: 25px;
+  
 }
 
 /* Estilos para el modal en sí */
 .modal-content {
+  position:absolute;
   padding: 20px;
   border-radius: 5px;
+  z-index: 999;
 }
 .modal__title {
   position: absolute;
@@ -267,7 +270,7 @@
     width: 90%; /* Ajusta el ancho para pantallas de celular */
     height: 130px; /* Permite que la altura se ajuste automáticamente */
     top: 190px; /* Ajusta la posición vertical para pantallas de celular */
-    left: 65px; /* Ajusta la posición horizontal para pantallas de celular */
+    left: 90px; /* Ajusta la posición horizontal para pantallas de celular */
     position: fixed;
     transform: translate(-50%, -50%); /* Centra el modal en la pantalla */
     height: 530px;
@@ -284,6 +287,7 @@
     padding: 20px;
     box-shadow: 0 35px 35px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
+    
   }
 
   .modal__title {
@@ -297,5 +301,7 @@
 
   .modal__tex {
     top: 140px; /* Ajusta la posición vertical para pantallas de celular */
+    line-height: 1.5;
+    padding:10px;
   }
 }
