@@ -13,7 +13,7 @@
 }
 .servi__icon1 {
   position: absolute;
-  top: 400px;
+  top: 365px;
   left: 605px;
   width: 50px;
   height: 100px;
@@ -21,7 +21,7 @@
 }
 .servi__icon2 {
   position: absolute;
-  top: 505px;
+  top: 455px;
   left: 603px;
   width: 50px;
   height: 100px;
@@ -29,7 +29,7 @@
 }
 .servi__icon3 {
   position: absolute;
-  top: 605px;
+  top: 565px;
   left: 603px;
   width: 50px;
   height: 100px;
@@ -119,11 +119,11 @@
   .servi__title {
     font-size: 120%; /* Ajusta el tamaño de fuente para pantallas de celular */
     top: 400px; /* Ajusta la posición vertical para pantallas de celular */
-    left: 90px; /* Ajusta la posición horizontal para pantallas de celular */
+    left: 100px; /* Ajusta la posición horizontal para pantallas de celular */
   }
 
   .servi__conteiner {
-    top: 600px; /* Ajusta la posición vertical para pantallas de celular */
+    top: 700px; /* Ajusta la posición vertical para pantallas de celular */
     left: 130px; /* Ajusta la posición horizontal para pantallas de celular */
     right: 20px; /* Ajusta la posición horizontal para pantallas de celular */
   }
@@ -133,7 +133,7 @@
   }
   .servi__icon {
     position: absolute;
-    top: 610px;
+    top: 710px;
     left: 60px;
     width: 50px;
     height: 100px;
@@ -141,7 +141,7 @@
   }
   .servi__icon1 {
     position: absolute;
-    top: 770px;
+    top: 830px;
     left: 65px;
     width: 50px;
     height: 100px;
@@ -149,7 +149,7 @@
   }
   .servi__icon2 {
     position: absolute;
-    top: 905px;
+    top: 935px;
     left: 60px;
     width: 50px;
     height: 100px;

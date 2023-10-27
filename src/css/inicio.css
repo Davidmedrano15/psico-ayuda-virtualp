@@ -80,9 +80,9 @@
   }
   .psi__arbol {
     position: absolute;
-    width: 40%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
+    width: 70%; /* Ajusta el ancho para adaptarse a la pantalla de celular */
     height: auto; /* Permite que la altura se ajuste automáticamente */
-    margin: 380px 200px; /* Centra horizontalmente el texto */
-    left: 10px; /* Oculta el elemento para pantallas de celular si es necesario */
+    margin: 330px 100px; /* Centra horizontalmente el texto */
+    left: 0px; /* Oculta el elemento para pantallas de celular si es necesario */
   }
 }
